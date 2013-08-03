@@ -27,14 +27,14 @@
     <color name="message_count_color">#66333333</color>
 
     <!-- Chat "sent time" text background -->
-    <color name="timestamp_color">#bf000000</color>
+    <color name="timestamp_color">#ffffffff</color>
 
     <!-- the background color used for unread conversation -->
-    <color name="unread_bgcolor">#ffffffff</color>
-    <color name="read_bgcolor">#ffeeeeee</color>
+    <color name="unread_bgcolor">#33ffffff</color>
+    <color name="read_bgcolor">#00000000</color>
 
-    <color name="widget_sender_text_color_read">#555555</color>
-    <color name="widget_sender_text_color_unread">#333333</color>
-    <color name="widget_subject_text_color_read">#777777</color>
-    <color name="widget_subject_text_color_unread">#555555</color>
+    <color name="widget_sender_text_color_read">#ffffffff</color>
+    <color name="widget_sender_text_color_unread">#a5a5a5</color>
+    <color name="widget_subject_text_color_read">#e2e2e2</color>
+    <color name="widget_subject_text_color_unread">#ffffffff</color>
 </resources>
