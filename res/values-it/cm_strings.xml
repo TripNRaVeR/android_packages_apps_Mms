@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Schema personalizzato</string>
     <string name="pref_text_mms_notification_vibrate_custom">Formatta off/on in millisecondi: off, on, off, on, \u2026</string>
     <string name="pref_quickmessage">Messaggi e risposte rapidi</string>
-    <string name="pref_dark_theme_title">Usa tema scuro</string>
-    <string name="pref_dark_theme_summary">Se non selezionato, verrà utilizzato il classico tema chiaro</string>
     <string name="pref_quickmessage_title">Mostra messaggi rapidi</string>
     <string name="pref_quickmessage_summary">Mostra il pop-up di messaggio rapido per gli sms in arrivo</string>
     <string name="pref_wake_unlock_title">Accendi e sblocca</string>

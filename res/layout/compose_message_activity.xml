@@ -41,7 +41,7 @@
         />
 
         <EditText android:id="@+id/subject"
-            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/compose_message_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

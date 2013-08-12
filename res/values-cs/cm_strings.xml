@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Vlastní vzor vibrace</string>
     <string name="pref_text_mms_notification_vibrate_custom">Formát vyp/zap v milisekundách: vyp, zap, vyp, zap,\u2026</string>
     <string name="pref_quickmessage">Vyskakovací okno</string>
-    <string name="pref_dark_theme_title">Použít tmavé téma</string>
-    <string name="pref_dark_theme_summary">Pokud není vybráno, použije se výchozí \'světlé\' téma</string>
     <string name="pref_quickmessage_title">Zobrazovat vyskakovací okno</string>
     <string name="pref_quickmessage_summary">Zobrazit vyskakovací okno u příchozích SMS zpráv s možností rychlé odpovědi</string>
     <string name="pref_wake_unlock_title">Probudit a odemknout</string>

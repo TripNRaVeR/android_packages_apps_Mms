@@ -152,7 +152,6 @@ public class QuickMessagePopup extends Activity implements
     // Configuration
     private boolean mCloseClosesAll = false;
     private boolean mWakeAndUnlock = false;
-    private boolean mDarkTheme = false;
     private boolean mFullTimestamp = false;
     private int mUnicodeStripping = MessagingPreferenceActivity.UNICODE_STRIPPING_LEAVE_INTACT;
     private UnicodeFilter mUnicodeFilter = null;
@@ -191,7 +190,6 @@ public class QuickMessagePopup extends Activity implements
         mFullTimestamp = prefs.getBoolean(MessagingPreferenceActivity.FULL_TIMESTAMP, false);
         mCloseClosesAll = prefs.getBoolean(MessagingPreferenceActivity.QM_CLOSE_ALL_ENABLED, false);
         mWakeAndUnlock = prefs.getBoolean(MessagingPreferenceActivity.QM_LOCKSCREEN_ENABLED, false);
-        mDarkTheme = prefs.getBoolean(MessagingPreferenceActivity.QM_DARK_THEME_ENABLED, false);
         mUnicodeStripping = prefs.getInt(MessagingPreferenceActivity.UNICODE_STRIPPING_VALUE,
                 MessagingPreferenceActivity.UNICODE_STRIPPING_LEAVE_INTACT);
         mEnableEmojis = prefs.getBoolean(MessagingPreferenceActivity.ENABLE_EMOJIS, false);
@@ -220,11 +218,7 @@ public class QuickMessagePopup extends Activity implements
 
         // Set the theme color on the pager arrow
         Resources res = getResources();
-        if (mDarkTheme) {
-            mQmPagerArrow.setBackgroundColor(res.getColor(R.color.quickmessage_body_dark_bg));
-        } else {
-            mQmPagerArrow.setBackgroundColor(res.getColor(R.color.quickmessage_body_light_bg));
-        }
+        mQmPagerArrow.setBackgroundColor(res.getColor(R.color.quickmessage_body_dark_bg));
 
         // ViewPager Support
         mPagerAdapter = new MessagePagerAdapter();
@@ -1000,11 +994,7 @@ public class QuickMessagePopup extends Activity implements
             // Load the layout to be used
             LayoutInflater inflater = (LayoutInflater)mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View layout;
-            if (mDarkTheme) {
-                layout = inflater.inflate(R.layout.quickmessage_content_dark, null);
-            } else {
-                layout = inflater.inflate(R.layout.quickmessage_content_light, null);
-            }
+            layout = inflater.inflate(R.layout.quickmessage_content_dark, null);
 
             // Load the main views
             EditText qmReplyText = (EditText) layout.findViewById(R.id.embedded_text_editor);
@@ -1028,12 +1018,6 @@ public class QuickMessagePopup extends Activity implements
                 qmTimestamp.setText(MessageUtils.formatTimeStampString(mContext, qm.getTimestamp(), mFullTimestamp));
                 updateContactBadge(qmContactBadge, qm.getFromNumber()[0], false);
                 qmMessageText.setText(formatMessage(qm.getMessageBody()));
-
-                if (!mDarkTheme) {
-                    // We are using a holo.light background with a holo.dark activity theme
-                    // Override the EditText background to use the holo.light theme
-                    qmReplyText.setBackgroundResource(R.drawable.edit_text_holo_light);
-                }
 
                 // Set the remaining values
                 qmReplyText.setInputType(InputType.TYPE_CLASS_TEXT | mInputMethod

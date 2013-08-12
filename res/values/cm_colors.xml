@@ -31,7 +31,7 @@
     <color name="delivery_report_date">#ffffffff</color>
     <color name="button_text">#ffffffff</color>
     <color name="message_received">#ffffffff</color>
-    <color name="message_sent">#ffffffff</color>
+    <color name="message_sent">#000000</color>
     <color name="widget_unread_text">#ffffffff</color>
     <color name="widget_loading">#00000000</color>
 

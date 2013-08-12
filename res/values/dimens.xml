@@ -18,7 +18,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <dimen name="message_item_avatar_on_right_text_indent">50dip</dimen>
     <dimen name="message_item_text_padding_left_right">12dip</dimen>
-    <dimen name="message_item_text_padding_top">5dip</dimen>
+    <dimen name="message_item_text_padding_top">10dip</dimen>
 
     <dimen name="avatar_width_height">64dip</dimen>
 

@@ -38,8 +38,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Benutzerdefiniertes Muster</string>
     <string name="pref_text_mms_notification_vibrate_custom">Format (aus/an) in Millisekunden: aus, an, aus, an\u2026</string>
     <string name="pref_quickmessage">Schnell antworten</string>
-    <string name="pref_dark_theme_title">Dunkles Design verwenden</string>
-    <string name="pref_dark_theme_summary">Das \"helle\" Design wird als Standard verwendet, wenn Option nicht aktiviert wurde</string>
     <string name="pref_quickmessage_title">Pop-up anzeigen</string>
     <string name="pref_quickmessage_summary">Beim Eingang einer SMS ein Pop-up anzeigen, um schnell antworten zu können</string>
     <string name="pref_wake_unlock_title">Wecken und entsperren</string>

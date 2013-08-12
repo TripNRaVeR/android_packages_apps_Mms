@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Egendefinert mønster</string>
     <string name="pref_text_mms_notification_vibrate_custom">Format av/på i millisekunder: av, på, av, på\u2026</string>
     <string name="pref_quickmessage">Hurtigsvar</string>
-    <string name="pref_dark_theme_title">Bruk mørkt tema</string>
-    <string name="pref_dark_theme_summary">Hvis ikke valgt, vil \'Lyst\' tema bli brukt.</string>
     <string name="pref_quickmessage_title">Vis dialog</string>
     <string name="pref_quickmessage_summary">Vis Hurtigsvars-dialog ved innkommende SMS-meldinger</string>
     <string name="pref_wake_unlock_title">Vekk og lås opp</string>

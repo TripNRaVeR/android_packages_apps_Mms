@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Vlastný štýl vibrovania</string>
     <string name="pref_text_mms_notification_vibrate_custom">Formát off(vyp)/on(zap) v milisekundách: off, on, off, on\u2026</string>
     <string name="pref_quickmessage">Rýchla odpoveď</string>
-    <string name="pref_dark_theme_title">Použiť tmavú tému</string>
-    <string name="pref_dark_theme_summary">Ak nie je zvolené, bude použitá predvolená \'svetlá\' téma</string>
     <string name="pref_quickmessage_title">Zobraziť vyskakovacie okná</string>
     <string name="pref_quickmessage_summary">Zobrazí vyskakovacie okno s rýchlou správou pre prichádzajúcu SMS správu</string>
     <string name="pref_wake_unlock_title">Prebudiť a odomknúť</string>

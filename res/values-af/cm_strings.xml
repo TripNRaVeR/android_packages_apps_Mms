@@ -67,8 +67,6 @@
     <string name="pref_wake_unlock_summary">Aktiveer en ontsluit die toestel met inkomende SMS-bookskappe (slegs onveilige slotskerms)</string>
     <string name="pref_close_all_title">Maak almal toe</string>
     <string name="pref_close_all_summary">Die \'Maak toe\'-knoppie maak alle boodskappe in die Kitsboodskap-dialoog toe</string>
-    <string name="pref_dark_theme_title">Gebruik donker tema</string>
-    <string name="pref_dark_theme_summary">Tensy die instelling gekies is, sal die ligte tema gebruik word vir die Kitsboodskap-dialoog</string>
     <string name="pref_title_unicode_stripping">Verwyder \'unicode\'</string>
     <string name="pref_unicode_stripping_leave_intact">Laat karakters ongeskonde</string>
     <string name="pref_unicode_stripping_non_encodable">Verwyder nie-enkodeerbare karakters</string>

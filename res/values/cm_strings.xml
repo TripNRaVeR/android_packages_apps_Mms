@@ -54,10 +54,6 @@
     <!-- QUICKMESSAGE -->
     <string name="pref_quickmessage">Quick reply</string>
 
-    <!-- Use dark theme -->
-    <string name="pref_dark_theme_title">Use dark theme</string>
-    <string name="pref_dark_theme_summary">If not selected, the default \'light\' theme will be used</string>
-
     <!-- Show pop-up -->
     <string name="pref_quickmessage_title">Show pop-up</string>
     <string name="pref_quickmessage_summary">Display the QuickMessage pop-up for incoming SMS messages</string>
