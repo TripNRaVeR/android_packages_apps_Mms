@@ -43,7 +43,7 @@
 
     <style name="Theme.Holo" parent="@android:style/Theme.Holo" />
     <style name="MmsHoloTheme" parent="@android:style/Theme.Holo">
-    <item name="android:windowBackground">@drawable/transparent50</item>
+    <item name="android:windowBackground">@drawable/background_holo_dark</item>
     </style>
 
     <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
