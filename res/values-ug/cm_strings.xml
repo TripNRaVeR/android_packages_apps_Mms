@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">ئۆزلەشتۈرگەن تىترەش ئەندىزە</string>
     <string name="pref_text_mms_notification_vibrate_custom">مىللىسېكۇنت ئاچ/تاقا پىچىمى: تاقا، ئاچ، تاقا، ئاچ\u2026</string>
     <string name="pref_quickmessage">تېز جاۋاب</string>
-    <string name="pref_dark_theme_title">قاراڭغۇ ئۆرنەك ئىشلەت</string>
-    <string name="pref_dark_theme_summary">ئەگەر تاللانمىسا، كۆڭۈلدىكى \'يورۇق\' ئۆرنەكنى ئىشلىتىدۇ</string>
     <string name="pref_quickmessage_title">قاڭقىش كۆزنىكىنى كۆرسەت</string>
     <string name="pref_quickmessage_summary">قىسقا ئۇچۇر تاپشۇرۇۋالغاندا تېز ئۇچۇر قاڭقىش كۆزنىكىنى كۆرسىتىدۇ</string>
     <string name="pref_wake_unlock_title">ئويغات ۋە قۇلۇپ ئاچ</string>
