@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">自訂震動模式</string>
     <string name="pref_text_mms_notification_vibrate_custom">設定震動間隔 (毫秒)</string>
     <string name="pref_quickmessage">快速回覆</string>
-    <string name="pref_dark_theme_title">使用深色主題</string>
-    <string name="pref_dark_theme_summary">如果未選取，則會使用預設的「淺色」主題</string>
     <string name="pref_quickmessage_title">顯示彈出式視窗</string>
     <string name="pref_quickmessage_summary">為收到的簡訊顯示快速回覆彈出式視窗</string>
     <string name="pref_wake_unlock_title">喚醒和解鎖</string>

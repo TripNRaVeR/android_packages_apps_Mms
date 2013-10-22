@@ -35,8 +35,6 @@
     <string name="pref_title_mms_notification_vibrate_custom">Kustomoitu</string>
     <string name="pref_text_mms_notification_vibrate_custom">Muotoile päälle/pois millisekunneissa: päälle, pois, päälle, pois...</string>
     <string name="pref_quickmessage">Pikavastaus</string>
-    <string name="pref_dark_theme_title">Käytä tummaa teemaa</string>
-    <string name="pref_dark_theme_summary">Jos ei valittuna, alkuperäinen \'vaalea\' teema on käytössä</string>
     <string name="pref_quickmessage_title">Näytä ponnahdusikkuna</string>
     <string name="pref_quickmessage_summary">Näytä QuickMessage-ponnahdusikkuna viestin saapuessa</string>
     <string name="pref_wake_unlock_title">Herätä ja poista lukitus</string>
